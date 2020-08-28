@@ -7,7 +7,7 @@ public class Picture {
 	@DefaultValue
 	private int price;
 	
-	private int t = 800;
+	private int amount = 2;
 	
 	public Picture(int price) {
 		this.price = price;
@@ -26,7 +26,7 @@ public class Picture {
 
 	@Override
 	public String toString() {
-		return "Picture [price=" + price + "]" + "  " + t;
+		return "Picture : price = " + price + ", amount =  " + amount;
 	}
 	
 	
